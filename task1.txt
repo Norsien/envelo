@@ -1,0 +1,12 @@
+1. Klas abstakcyjnych używa się kiedy wiele różnych klas korzysta z takich samych pól i 
+metod, więc będą dziedziczyć po jednej, żeby nie powtarzać kodu. Jednocześnie abstrakcyjność
+oznacza, że obiekty bezpośrednio należące do takiej klasy nie mogą istnieć.
+Interfejsów używamy żeby rozdzielić możliwe do użycia metody od konkretnej implementacji 
+pozostawiając możlwość użycia innych. Interfejsy zawierają tylko nagłówki metod które swoją
+nazwą opisują co metoda ma robić, ale nie ciała metody, które zawierają kod. 
+
+2. Tablica ma określony rozmiar i można szybko dotrzeć do konkretnego elementu ze środka, 
+ ale zmienianie rozmiaru tablicy wiąże się z jej przepisaniem, co jest kosztowniejsze 
+ niż powiększanie listy. Lista składa się z elementów które wskazują na kolejne, więc 
+ można taniej dodawać i usuwać z niej elementy, ale dotarcie do dowolnego elementu listy 
+ jest wolniejsze niż w tablicy.
